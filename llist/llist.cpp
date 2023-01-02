@@ -2,6 +2,7 @@
 #include <iostream>
 #include "llist.hpp"
 
+/* add function for linked list*/
 void add(struct Person **head, struct Person *node) {
     if(*head == NULL) {
         *head = node;
